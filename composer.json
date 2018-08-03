@@ -1,69 +1,18 @@
 {
     "name": "leonardo89stg/ffctophp_version_alpha",
-    "type": "lib",
-   "homepage": "http://pagar.me",
-    "license": "MIT",
-    "version": "1.0",
+    "type": "library",
+    "license": "GPL-2.0",
     "authors": [
         {
             "name": "Leonardo S T Gomes",
             "email": "leo89stg@gmail.com"
         }
     ],
-
-  "require": {
-        "php": ">=5.4.0",
-        "guzzlehttp/guzzle": ">=5.3"
-    },
-    
     "minimum-stability": "stable",
-    "prefer-stable": true
-    
-}
-
-
-
-{
-    "name": "pagarme/pagarme-php",
-    "description": "Pagar.Me PHP Library",
-    "type": "lib",
-    "keywords": [
-        "pagar.me",
-        "pagarme",
-        "pagamentos",
-        "payments brazil",
-        "pagamento brasil",
-        "api"
-    ],
-    "homepage": "http://pagar.me",
-    "license": "MIT",
+    "versio":"1.0.0",
     "require": {
-        "php": ">=5.4.0",
-        "guzzlehttp/guzzle": ">=5.3"
-    },
-    "require-dev": {
-        "ext-mbstring": "*",
-        "phpunit/phpunit": "^4.8",
-        "behat/mink-extension": "^2.2",
-        "squizlabs/php_codesniffer": "^3.3"
-    },
-    "scripts": {
-        "test": [
-            "@composer install",
-            "vendor/bin/phpunit"
-        ],
-        "coverage": [
-            "@composer install",
-            "vendor/bin/phpunit --coverage-html tests/_reports"
-        ]
-    },
-     "autoload": {
-        "psr-4": {"PagarMe\\Sdk\\": "lib/"}
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "PagarMe\\SdkTest\\": "tests/unit",
-            "PagarMe\\Acceptance\\": "tests/acceptance"
-        }
+
+"php":">=5.3.0"
+
     }
 }
