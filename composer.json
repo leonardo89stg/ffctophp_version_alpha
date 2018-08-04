@@ -1,17 +1,14 @@
 {
     "name": "leonardo89stg/ffctophp_version_alpha",
-    "description": "Rapid Conection to projects in php",
-    "type": "library",
-    "license": "MIT",
+    "description": "Este pacote foi criado apenas para complementar o post no Tableless",
     "authors": [
         {
-            "name": "Leonardo ST Gomes",
-            "email": "leo89stg@gmail.com"
+            "name": "Andre Cardoso",
+            "email": "andrecardosodev@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
-    "php":" >=5.3.0",
-         "leonardo89stg/ffctophp_version_alpha": "^1.0"
+         "php": ">=5.3.17",
+      
     }
-}
+ }
