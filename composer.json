@@ -1,5 +1,8 @@
 {
+    "name": "leonardo89stg/ffctophp_version_alpha",
+    "description": "A short description of what your package does",
     "require": {
-        "leonardo89stg/ffctophp_version_alpha": "1.0.*"
+        "php": "^5.3.3 || ^7.0",
+      
     }
 }
