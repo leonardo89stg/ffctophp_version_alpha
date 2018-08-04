@@ -1,5 +1,6 @@
 {
     "name": "leonardo89stg/ffctophp_version_alpha",
+    "description": "A short description of what your package does",
     "type": "library",
     "license": "GPL-2.0",
     "authors": [
@@ -10,9 +11,9 @@
     ],
     "minimum-stability": "stable",
     "versio":"1.0.0",
+
     "require": {
-
-"php":">=5.3.0"
-
+        "php": "^5.3.0 || ^7.0",
+        "another-vendor/package": "1.*"
     }
 }
