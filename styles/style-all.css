@@ -1,0 +1,31 @@
+/*stye*/
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	background: #fff;
+}
+.form-eng
+{
+	margin: 40px 0px 0px  350px;
+	width: 500px;
+	height: 500px;
+	border-radius: 4px;
+	boder:solid 1px #444;
+	background:WhiteSmoke;
+	opacity: 0.6;
+}
+
+.form-eng input type= [text]
+{
+	margin: 40px 0px 0px  350px;
+	width: 500px;
+	height: 500px;
+	border-radius: 4px;
+	boder:solid 1px #444;
+	background:WhiteSmoke;
+	opacity: 0.6;
+}
