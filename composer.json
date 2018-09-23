@@ -1,8 +1,8 @@
 {
-    "name": "leonardo89stg/ffctophp_version_alpha",
-    "description": "Library repid conection",
+    "name": "leostg/leo-stg",
+    "description": "librayr",
     "type": "library",
-    "license": "MIT",
-    "minimum-stability": "RC",
+    "license": "Apache 2.0",
+    "minimum-stability": "alpha",
     "require": {}
 }
